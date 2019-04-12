@@ -1,0 +1,47 @@
+
+.cardWrapper{
+  width:200px;
+  height:200px;
+  float:left;
+  margin-right:10px;
+  cursor:pointer;
+  
+}
+
+.cardFace{
+  width:200px;
+  height:200px;
+  overflow:hidden;
+}
+
+.front{
+  background-color:#333; 
+}
+
+.back{
+  background-color:#333; 
+}
+
+
+
+.cardFace h1{
+  margin:0px;
+  font-size:30px;
+  padding:10px 0px 10px 10px;
+  border-bottom:solid 6px #aaa;
+  border-top:solid 6px #aaa;
+  background-color:black;
+  color:white;
+}
+
+
+.cardFace.back h1{
+ border-color:#91e600;
+}
+
+.moreInfo{
+  padding:10px;
+  color:white;
+  line-height:24px;
+  
+}
